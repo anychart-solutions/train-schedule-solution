@@ -34,41 +34,43 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-9">
-                    <div id="chart-container"></div>
-                </div>
-                <div class="col-sm-3">
-                    <form class="form-inline" role="form">
-
-                        <div class="form-group">
-                            <input type="text" data-provide="typeahead" class="form-control typeahead1 input-sm" id="StationA" value="Wien Westbahnhof" placeholder="Station start">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div id="chart-container"></div>
                         </div>
-                        <div class="form-group">
-                            <a class="btn btn-default btn-sm"><span class="glyphicon glyphicon-transfer"></span> </a>
-                            <input type="text" data-provide="typeahead" class="form-control typeahead2 input-sm" id="StationB" value="München Hbf" placeholder="Station end">
-                        </div>
+                        <div class="col-sm-3">
+                            <form class="form-inline" role="form">
 
-                        <div class="form-group">
-                            <div class='input-group date' id='datetimepicker'>
-                                <input type='text' class="form-control input-sm" id="date" placeholder="Departure day" value=getToday()/>
-                                <span class="input-group-addon">
-                                    <span class="glyphicon glyphicon-calendar"></span>
-                                </span>
+                                <div class="form-group">
+                                    <input type="text" data-provide="typeahead" class="form-control typeahead1 input-sm" id="StationA" value="Wien Westbahnhof" placeholder="Station start">
+                                </div>
+                                <div class="form-group">
+                                    <a class="btn btn-default btn-sm"><span class="glyphicon glyphicon-transfer"></span> </a>
+                                    <input type="text" data-provide="typeahead" class="form-control typeahead2 input-sm" id="StationB" value="München Hbf" placeholder="Station end">
+                                </div>
+
+                                <div class="form-group">
+                                    <div class='input-group date' id='datetimepicker'>
+                                        <input type='text' class="form-control input-sm" id="date" placeholder="Departure day" value=getToday()/>
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-danger btn-sm" onclick="reDrawSchedule()">Show</button>
+                                </div>
+
+                            </form>
+
+                            <div id="data-container">
+                                <p>Click on train line on the graphic to see details.</p>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <button type="button" class="btn btn-danger btn-sm" onclick="reDrawSchedule()">Show</button>
-                        </div>
-
-                    </form>
-
-                    <div id="data-container">
-                        <p>Click on train line on the graphic to see details.</p>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </body>
     <script type="text/javascript">
