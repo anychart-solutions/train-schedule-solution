@@ -71,7 +71,7 @@ var trainsData = [
         }, {
             "name": "Wien Westbahnhof - München Hbf",
             "id": 3,
-            "type": 'type3',
+            "type": 'type1',
             "stops": [
                 {"station_number": 1, 'arrives': [7, 10], 'departs': [7, 15], 'begin': true},
                 {"station_number": 2, 'arrives': [7, 25], 'departs': [7, 30]},
@@ -117,7 +117,7 @@ var trainsData = [
         }, {
             "name": "Wien Westbahnhof - München Hbf",
             "id": 5,
-            "type": 'type1',
+            "type": 'type2',
             "stops": [
                 {"station_number": 1, 'arrives': [7, 30], 'departs': [7, 35], 'begin': true},
                 {"station_number": 2, 'arrives': [7, 45], 'departs': [7, 50]},
