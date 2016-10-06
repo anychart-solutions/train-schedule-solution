@@ -3,7 +3,7 @@
 ## Trains Schedule Solution
  Inspired by example, described by Edward Tufte in his book "The Visual Display of Quantitative Information", we created our version of Minoru Niijima's version of E.J. Marey's train schedule from Paris to Lyon.
 
-[<img src="http://static.anychart.com/images/github/trains-schedule-solution.png" alt="Trains Schedule Solution | AnyChart">]
+<img src="http://static.anychart.com/images/github/trains-schedule-solution.png" alt="Trains Schedule Solution | AnyChart">
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
