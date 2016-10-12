@@ -1,11 +1,12 @@
 [<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](http://www.anychart.com)
 
 ## Trains Schedule Solution
- Inspired by example, described by Edward Tufte in his book "The Visual Display of Quantitative Information", we created our version of Minoru Niijima's version of E.J. Marey's train schedule from Paris to Lyon.
+Inspired by example, described by Edward Tufte in his book "The Visual Display of Quantitative Information", we created our version of Minoru Niijima's version of E.J. Marey's train schedule from Paris to Lyon.
 
 <img src="http://static.anychart.com/images/github/trains-schedule-solution.png" alt="Trains Schedule Solution | AnyChart">
 
-## Further Learning
+## Links
+* [Trains Schedule Demo at AnyChart.Com](https://www.anychart.com/solutions/trains_schedule/)
 * [Documentation](https://docs.anychart.com)
 * [JavaScript API Reference](https://api.anychart.com)
 * [Code Playground](https://playground.anychart.com)
